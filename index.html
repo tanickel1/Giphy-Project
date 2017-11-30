@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>
+		Giphy Projects
+	</title>
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+	<!-- Optional theme -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+	<link rel="stylesheet" type="text/css" href="assets/css/styles.css">
+	
+</head>
+<body>
+
+<div class="container">
+	<div class="jumbotron">
+		<h1 class="text-center">
+			Best Movies Ever
+		</h1>
+	</div>
+	
+	<div id="movieButtons">
+		
+	</div>
+
+	<div class="col-md-8">
+        <div id="gifsView"></div>
+    </div>
+
+    <div class="col-md-4">
+        <form id="gif-form" role="form">
+        	<h2><legend>Movie Form</legend></h2>
+                <div class="form-group">
+                    <label for="movie-input">Add Your Movie</label>
+                    <input type="text" id="movie-input">
+                </div>
+                <input id="add" type="submit" value="Add Movie" class="btn btn-primary">
+                <input id="remove" type="submit" value="Remove Movie" class="btn btn-primary">
+        </form>    
+    </div>
+
+</div>
+
+</body>
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<script type="text/javascript" src="assets/javascript/app.js"></script>
+
+</html>
